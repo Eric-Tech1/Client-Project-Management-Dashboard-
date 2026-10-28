@@ -1,0 +1,43 @@
+[2026-10-28 00:58:04] production.ERROR: Class "Str" not found {"exception":"[object] (Error(code: 0): Class \"Str\" not found at /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/config/session.php:8)
+[stacktrace]
+#0 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require()
+#1 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile()
+#3 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#4 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#5 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(507): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/artisan(11): Illuminate\\Foundation\\Application->handleCommand()
+#9 {main}
+"} 
+[2026-10-28 00:58:29] production.ERROR: Class "Str" not found {"exception":"[object] (Error(code: 0): Class \"Str\" not found at /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/config/session.php:8)
+[stacktrace]
+#0 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): require()
+#1 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(115): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(96): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFile()
+#3 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(55): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles()
+#4 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(342): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap()
+#5 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(507): Illuminate\\Foundation\\Application->bootstrapWith()
+#6 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle()
+#8 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/artisan(11): Illuminate\\Foundation\\Application->handleCommand()
+#9 {main}
+"} 
+[2026-10-28 01:04:52] production.ERROR: Command "test" is not defined.
+
+Did you mean one of these?
+    make:test
+    schedule:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"test\" is not defined.
+
+Did you mean one of these?
+    make:test
+    schedule:test at /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/symfony/console/Application.php:760)
+[stacktrace]
+#0 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->find()
+#1 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/symfony/console/Application.php(196): Symfony\\Component\\Console\\Application->doRun()
+#2 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#3 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 /workspaces/Client-Project-Management-Dashboard-/brandville-dashboard/backend/artisan(11): Illuminate\\Foundation\\Application->handleCommand()
+#5 {main}
+"} 
