@@ -8,4 +8,4 @@ COPY . .
 RUN composer install --no-dev --optimize-autoloader --no-interaction
 ENV PORT=8080
 EXPOSE 8080
-CMD sh -c "php artisan config:cache && php artisan serve --host=0.0.0.0 --port=${PORT}"
+CMD sh -c "php artisan config:cache && php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=${PORT}"
